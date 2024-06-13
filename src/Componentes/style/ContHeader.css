@@ -1,0 +1,45 @@
+.caja1{
+    height: 800px;
+    background-color: rgb(228, 217, 223);   
+}
+.card-mb-3{
+    height: 100;
+}
+.card-body{
+   /* position: relative;
+    left: 200px;*/
+    /*height: 350px;
+    width: 600px;*/
+}
+.caja2{
+    height: 500px;
+    background-color: rgb(193, 42, 123);   
+}
+ 
+ .caja3{
+    height: 500px;
+    background-color:rgb(52, 113, 163);  
+ }
+ .card{
+    height: 280px;
+    width: 400px;
+
+ }
+ .card-img-top{
+    height: 280px;
+    width: 400px;
+
+ }
+.card-title{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    font-size: italic;
+}
+.titulo{
+    
+    position:relative;
+    vertical-align: bottom;
+    color: antiquewhite;
+    text-align: center; 
+}
