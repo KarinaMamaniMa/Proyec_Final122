@@ -4,26 +4,32 @@ import teleferico from '../Imagenes/teleferico.jpeg'
 import cochabamba from'../Imagenes/cochabamba.jpeg'
 import salar from'../Imagenes/salar.jpeg'
 import santacrux from'../Imagenes/santacrux.jpeg'
+import casamoneda from'../Imagenes/casamoneda.jpeg'
+ 
 export const Banner_carrocel = () => {
   return (
-    <div className='container' style={{marginTop:30, marginBottom:30}}>
+
+    <div className='container' style={{marginTop:40, marginBottom:40}}>
 
        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src={salar} className="d-block w-100" height="400" alt="No Encontrada"/>
+                <img src={salar} className="d-block w-100" height="550" alt="No Encontrada"/>
                 </div>
                 <div className="carousel-item">
-                <img src={cochabamba} className="d-block w-100" height="400" alt="No Encontrada"/>
+                <img src={cochabamba} className="d-block w-100" height="550" alt="No Encontrada"/>
                 </div>
                 <div className="carousel-item">
-                <img src={teleferico} className="d-block w-100"  height="400" alt="No Encontrada"/>
+                <img src={teleferico} className="d-block w-100"  height="550" alt="No Encontrada"/>
                 </div>
-                
+
                 <div className="carousel-item">
-                <img src={copacabana} className="d-block w-100" height="400" alt="No Encontrada"/>
+                <img src={casamoneda} className="d-block w-100" height="550" alt="No Encontrada"/>
                 </div>
-                <img src={ santacrux} className="d-block w-100" height="400" alt="No Encontrada"/>
+                <div className="carousel-item">
+                <img src={ santacrux} className="d-block w-100" height="550" alt="No Encontrada"/>
+                </div>
+                <img src={ copacabana} className="d-block w-100" height="550" alt="No Encontrada"/>
                 </div>
                 
                 

@@ -1,0 +1,14 @@
+:root {
+    --ast-global-color-2: #00bec9;
+    --ast-global-color-6: #e9e9ea;
+    --ast-global-color-8: #dda712;
+  }
+.row{
+    background-color:#e9e9ea;
+}
+.titulo2{
+    color:#00bec9;
+}
+.btn-secondary{
+    background-color: #dda712;
+}
