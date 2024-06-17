@@ -10,7 +10,7 @@ import { Paquetes } from "./Componentes/Paginas/Paquetes";
 import {Sobre_Nosotros  } from "./Componentes/Paginas/Sobre_Nosotros";
 import { Contacto } from "./Componentes/Paginas/Contacto";
 import { Paque } from "./Componentes/Paginas/Paque";
- 
+import { Galeria } from "./Componentes/Paginas/Galeria"
  
 
 function App() {
@@ -25,8 +25,9 @@ function App() {
           <Route exact path="/Paquetes" element={<Paquetes/>}/>
           <Route exact path="/Sobre_Nosotros" element={<Sobre_Nosotros/>}/>
           <Route exact path="/Contacto" element={<Contacto/>}/>
-          <Route exact path="/Paque" element={<Paque/>}/>
-           
+          <Route exact path="/Paque" element={<Paque/>}/> 
+          <Route exact path="/Galeria" element={<Galeria/>}/> 
+      
         </Routes>
       </BrowserRouter>
     </div>
